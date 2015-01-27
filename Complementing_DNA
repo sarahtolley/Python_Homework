@@ -14,3 +14,6 @@ replacement3 = relacement2.replace('C', 'g')
 print(replacement3)
 replacement4 = replacement3.replace('G', 'c')
 print(replacement4)
+
+#change complementary strand to uppercase
+print(replacement4.upper())
