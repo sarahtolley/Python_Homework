@@ -1,0 +1,4 @@
+#Restriction fragment lengths, exercise 3
+
+my_dna = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+
