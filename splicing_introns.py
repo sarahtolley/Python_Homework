@@ -9,12 +9,12 @@ my_dna = "ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGATCG
 exon1 = my_dna[0:63]
 exon2 = my_dna[90: ]
 #print coding regions of the DNA sequence 
-print(exon1 + exon2)
+print("Coding regions of the DNA sequence = " exon1 + exon2)
 
 #part 2
 #calculate what percentage of the DNA sequence is coding
 coding_length = len(exon1 + exon2)
 total_length = len(my_dna)
-print(100 * coding_length / total_length)
+print("Percentage of the DNA that is coding = "100 * coding_length / total_length)
 
 
